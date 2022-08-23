@@ -41,3 +41,8 @@ searchInput.addEventListener("keyup", (e) => {
   search = searchInput.value;
   moviesDisplay();
 });
+form.addEventListener("submit", (e) => {
+  e.preventDefault();
+  search = searchInput.value;
+  moviesDisplay();
+});
